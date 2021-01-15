@@ -8,7 +8,7 @@ int main()
     printf("flag diese = %#o\n", diese);
     //montre le 0 de debut;
     
-    int moins = -5464654;
+    int moins = -5464654; //left justifying
     printf("flag moins = %-10d\n", moins);
     
     int plus = 5464654;
@@ -19,6 +19,7 @@ int main()
 
     int zero = 5464654;
     printf("flag zero = %010d\n", zero);
+    
 
 //largeur de champ_width
     
@@ -28,10 +29,13 @@ int main()
     char *etoile = "salut";
     printf("width etoile = %*s\n", 9, etoile);
     
-//precision
+//valeur de precision_precision
 
-    char *virgule = "salut";
-    printf("precision string = %*s\n", 9, etoile);
+    int virgule = 455684;
+    printf("precision string = %.2x\n", virgule);
+    
+//modification de longueur_length
+
     
     // char *str = "salut";
     // printf("flag str = %s\n", str);
